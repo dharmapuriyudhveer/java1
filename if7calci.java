@@ -23,6 +23,8 @@ public class if7calci
             System.out.println(a*b);
         else if(c == '/')
             System.out.println(a/b);
+        else if(c == '%')
+            System.out.println(a%b);
         else
             System.out.println("Invalid operator");
     }
